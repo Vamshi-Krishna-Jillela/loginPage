@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      external css
+    </title>
+            <style tyep="text/css">
+                div{
+                  width:50%;
+                  height:50%;
+                  margin:12.5%;
+                  padding:12.5%;
+                 
+                  
+                }
+                .set{
+                  font-size: x-large;
+                  color:beige;
+                 margin-left: 25%;
+                }
+
+                [type="email"],[type="password"]
+                {
+                  color:black;
+                  width:60%;
+                  margin-right: 30px;
+
+                }
+               [type="submit"],[type="reset"]{
+                 margin-right: 1px;
+                 background-color: brown;
+                 color:aliceblue;
+               }
+               h1{
+                 text-align: center;
+                 font-weight: bold;
+                 color:brown;
+                 background-color: white;
+                 margin-top: -20px;
+               }
+
+            </style>
+  </head>
+  <body background="https://cdn.hipwallpaper.com/i/89/85/5ESLwB.jpg">
+    
+    <div>
+      <form   name="frmLogin" action="valid.html" method="post">
+        <h1>
+          WELCOME
+        </h1>
+        <h1>LOGIN PAGE</h1>
+        <span class="set">EMAIL:</span>
+        <br>
+        <input class="set" type="email" name="UsrEmailId" value=""/>
+        <br>
+        <br>
+        <br>
+        <span class="set" style="margin-right: 50px;">
+          PASSWORD:
+        </span>
+        <br>
+        <input  class="set"type="password" name="usertxtpwd" value=""/>
+        <br><br>
+        <br>
+        <br>
+        <br>
+        <input class="set" type="submit" value="SUBMIT"/>
+        <input class="set" type="reset" id="rest" value="RESET"/>
+      </form>
+    </div>
+  </body>
+</html>
